@@ -46,14 +46,17 @@ while exit == False:
         gameOver = input("Do you want to QUIT the game? Y/N\n")
         if (gameOver == "Y"):
             exit = True
-        if (gameOver == False):
-            break
     elif (draw_status == "Y"):
         draw_a_card()
         card_number = draw_a_card()
         your_reading(card_number)
+        gameOver = input("Do you want to draw another card? Y/N\n")
+        if (gameOver == "N"):
+            exit = True
+        elif (gameOver == "Y"):
+            draw_status = False
     else:
         print("That is not a valid entry. Please try again")
-        break
 
-
+if (exit == True):
+    print("Thank you for playing!\n")
