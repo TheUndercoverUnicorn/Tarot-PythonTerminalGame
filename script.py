@@ -1,6 +1,9 @@
 #import the random module so you can use the function .randint()
 import random
 
+#import textwrap so that you can control the line length of the reading strings
+import textwrap
+
 #functions
 #have user think of a question and provide input to let you know when they are ready
 def ask_a_question():
@@ -16,9 +19,9 @@ def draw_a_card():
 #run function to determine your_card from the random number and print the answer
 def your_reading(card_number): 
     if card_number == 0:
-        reading = ""
+        reading = "The Fool: Seize this opportunity to move forward and try something new. You may not succeed by you will have valuable experiences along the way."
     elif card_number == 1:
-        reading = ""
+        reading = "The Magician: Look to the tools you already have. You have the skills, knowledge, tools, or mindset to change this situation to be one of benefit to you."
     elif card_number == 2:
         reading = ""
     elif card_number == 3:
@@ -61,7 +64,8 @@ def your_reading(card_number):
         reading = ""
     else:
         reading = "Indeterminate. Your future cannot be divined at this time."
-    print("Your Card is:\n" + reading + "\n")
+    print("Your Card is:\n")
+    print(textwrap.fill(reading, 70))
 
 
 #ASCII Name of Game: TAROT BY SAGEUS
