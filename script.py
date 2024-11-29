@@ -21,47 +21,47 @@ def your_reading(card_number):
     if card_number == 0:
         reading = "The Fool: Seize this opportunity to move forward and try something new. You may not succeed by you will have valuable experiences along the way."
     elif card_number == 1:
-        reading = "The Magician: Look to the tools you already have. You have the skills, knowledge, tools, or mindset to change this situation to be one of benefit to you."
+        reading = "The Magician: Look to the tools you already have. You have what you need to change this situation to be one of benefit to you, examine your resources and MacGyver this."
     elif card_number == 2:
-        reading = ""
+        reading = "The High Priestess: You know in your heart what you must do. Look within and follow your inutition."
     elif card_number == 3:
-        reading = ""
+        reading = "The Empress: Look to the natural world for answers and then be like nature."
     elif card_number == 4:
-        reading = ""
+        reading = "The Emperor: Control is important to you. Use or create structures and algorithms that will help you to consistantly achieve the results you are looking for."
     elif card_number == 5:
-        reading = ""
+        reading = "The Hierophant: It's not about chaning the situation, it's about changing your attitude. Take a spiritual stance."
     elif card_number == 6:
-        reading = ""
+        reading = "The Lovers: You have a difficult choice to make. Think closely about your values and the possible consequences of your decisions."
     elif card_number == 7:
-        reading = ""
+        reading = "The Chariot: Where there is a will there is a way. If you put your mind to something and just do it, you become an unstoppable force."
     elif card_number == 8:
-        reading = ""
+        reading = "Strength: You are brave, strong, and can get through this. You will come out even stronger on the other end."
     elif card_number == 9:
-        reading = ""
+        reading = "The Hermit: Sometimes there is just too much going on, too much change, too much acitvity. Take some time alone, away from the hustle to reset your perspective. You will know what to do."
     elif card_number == 10:
-        reading = ""
+        reading = "Wheel of Fortune: To quote Baz Luhrmann, \"Sometimes you're ahead, sometimes you're behind. The race is long and, in the end, it's only with yourself.\""
     elif card_number == 11:
-        reading = ""
+        reading = "Justice: What goes around comes around. We pay for our actions sooner or later, so make smart choices."
     elif card_number == 12:
-        reading = ""
+        reading = "The Hanged Man: You can't do anything about that right now. Nothing you do will help you get where you want to be any faster, you just have to be patient and diligent and stay the course."
     elif card_number == 13:
-        reading = ""
+        reading = "Death: Let it go, it's gone, allow it to be gone. SIt with the emptiness for a while. Soon enough, something else will come to fill the void it leaves behind."
     elif card_number == 14:
-        reading = ""
+        reading = "Temperance: You have to roll with the punches. Be patient and adaptable. You can only control how you respond right now and your flexibility will not only be an asset to yourself but to the situation and those around you."
     elif card_number == 15:
-        reading = ""
+        reading = "The Devil: You feel powerless and trapped, like the world is against you and there is nothing you can do but that's not true, you are looking for relief in all the wrong places. You are the warden of your own jail cell. Let go of what your are clinging to and move on."
     elif card_number == 16:
-        reading = ""
+        reading = "The Tower: It feels like everything is crashing down all around you and all hope is lost. Let it go. Walk away from the rubble even though it's scary. You don't need those things anymore. Focus on what you have and build something else, it will be better for you."
     elif card_number == 17:
-        reading = ""
+        reading = "The Star: Everything that is happening right now, is happening for you. It's all going to work out. Don't be discouraged, trust the process."
     elif card_number == 18:
-        reading = ""
+        reading = "The Moon: You are allowing your fears to control you. Self-sabotage is keeping you from achieving your goals. Examine your self-talk. If you wouldn't say it to someone you love, why would you say it to yourself?"
     elif card_number == 19:
-        reading = ""
+        reading = "The Sun: Things are good right now. Take a minute to be grateful for everything you have in your life and recognize how far you've come. You are doing good."
     elif card_number == 20:
-        reading = ""
+        reading = "Judgement: Everything you have done or been or experienced up until now has lead you here. Take some time to reflect on the things, good or bad, that have brought you to this point. Is this where you want to be? Are you on the path you want to be on? It's not too late to make a change."
     elif card_number == 21:
-        reading = ""
+        reading = "The World: You just leveled up! Enjoy it. You get to keep the lesson, but remember, it isn't over 'til it's over. Take some time to rest and revel before you take on the next challenge."
     else:
         reading = "Indeterminate. Your future cannot be divined at this time."
     print("Your Card is:\n")
